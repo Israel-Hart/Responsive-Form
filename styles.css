@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body { 
+    font-family: Open Sans, sans-serif;
+}
+
+header, form { 
+    width:50%; 
+    max-width: 789px;
+    min-width: 300px;
+    margin: auto;
+}
+
+header {  
+    padding: 30px 0 30px 0;
+    color: #001430;
+}
+
+a  { 
+    text-decoration: none;
+    color: #070;
+}
+
+h1, header p { 
+    text-align: center;
+}
+
+h1 { 
+    font-weight: 800; 
+    font-size: 2.2em;
+    padding-bottom: 20px;
+}
+
+header p { 
+    font-size: 1.2em;
+}
+
+form {
+    background: #f4f4f4;
+    padding: 20px 10px 10px 10px;
+    box-shadow: 0px 0px 6px #d0d0d0;
+    filter: blur(60%);
+    border-radius: 5px;
+}
+
+fieldset, .agreement { 
+    padding-bottom: 15px;
+}
+
+fieldset { 
+    width: 100%;
+    border: none;
+}
+
+fieldset label, 
+fieldset input,
+.agreement, 
+input[type="submit"] { 
+    font-size: 1.1em;
+}
+
+.agreement, 
+fieldset label { 
+    width: 90%;
+    margin: 0 auto;
+}
+
+fieldset label { 
+    
+    display: flex;
+    /* width: 60%; */
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+fieldset input { 
+     display: inline-block;
+     width: 65%;  
+     padding: 8px;
+     outline: none;
+     border: none;
+     background: none;
+     border-bottom: 2px solid black;
+}
+
+.agreement {
+    display: flex;
+    flex-direction: column; 
+}
+
+.agreement label, .agreement p { 
+    padding: 5px 0;
+}
+
+input[type="submit"] {
+    background: #001430;
+    display: block;
+    padding: 15px 0;
+    max-width: 250px;
+    color: #d0d0d0;
+    cursor: pointer;
+}
+
+input[type="submit"], .login
+{
+    text-align: center;
+    width: 50%;
+    margin: 10px auto;
+}
